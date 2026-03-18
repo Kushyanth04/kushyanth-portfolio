@@ -98,7 +98,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Kushyanth — a software engineer specializing in
+                Hi, I'm Kushyanth. A software engineer specializing in
                 Python, Node.js, and complex backend systems. I build reliable, performant,
                 and secure software architectures.
               </p>
