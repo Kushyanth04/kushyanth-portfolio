@@ -48,15 +48,27 @@ export const About = () => {
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
-              <p>
-                I'm a software engineer with experience designing, developing, and deploying scalable backend systems and APIs. My journey includes working with real-time telemetry systems handling thousands of vehicles and optimizing complex database queries.
-              </p>
-              <p>
-                I specialize in Python, TypeScript, and Node.js, building reliable architectures using frameworks like Flask, Django, and NestJS. I also have hands-on experience evaluating Large Language Models and engineering prompts to improve AI reasoning.
-              </p>
-              <p>
-                Holding a Master's degree in Computer Science from Colorado State University, I am passionate about writing clean, maintainable code and building secure, performant applications.
-              </p>
+            <p>
+              I'm a software engineer with experience designing, 
+              developing, and deploying scalable backend systems and 
+              APIs. My journey includes building real-time telemetry 
+              systems handling 4,800+ vehicles in production and 
+              optimizing complex database queries for performance.
+            </p>
+            <p>
+              I specialize in Python, TypeScript, and Node.js, building 
+              reliable architectures using frameworks like Flask, Django, 
+              FastAPI, and NestJS. I also work with generative AI, 
+              building RAG applications using LangChain, Pinecone, and 
+              LLM APIs, and evaluating AI code generation systems at 
+              Outlier AI.
+            </p>
+            <p>
+              Holding a Master's degree in Computer Science from Colorado 
+              State University, I am passionate about building backend 
+              systems and AI powered applications that solve real world 
+              problems.
+            </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
