@@ -2,29 +2,29 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Team Workflow Tracker",
+    title: "DocuQuery AI",
     description:
-      "A multi-tenant backend with real-time team collaboration via WebSockets. Features RBAC, scalable workspace isolation using Docker on AWS, and a React UI.",
+      "A RAG powered document Q&A application using LangChain for PDF chunking, Pinecone for vector storage, OpenAI and Hugging Face embeddings for semantic search, with Redis caching and scikit-learn document classification.",
     image: "/projects/project1.png",
-    tags: ["FastAPI", "PostgreSQL", "React", "WebSockets"],
+    tags: ["Python", "FastAPI", "LangChain", "Pinecone", "Redis", "React"],
+    link: "https://github.com/Kushyanth04",
+    github: "https://github.com/Kushyanth04",
+  },
+  {
+    title: "TaskFlow",
+    description:
+      "A real time project management platform using NestJS and TypeScript with MongoDB for tasks and PostgreSQL for users, featuring JWT auth, RBAC, WebSocket live updates, and Bull queue for async notifications.",
+    image: "/projects/project2.png",
+    tags: ["TypeScript", "NestJS", "MongoDB", "PostgreSQL", "WebSockets"],
     link: "https://github.com/Kushyanth04",
     github: "https://github.com/Kushyanth04",
   },
   {
     title: "LLM Test Case Generation Framework",
     description:
-      "A Python automation framework comparing ChatGPT 4 and Claude 3.5 using zero-shot and few-shot strategies. Automatically generates, evaluates, and grades code test cases.",
+      "A Python automation framework integrating OpenAI and Anthropic APIs to generate and evaluate 254 test cases, comparing GPT 4 and Claude 3.5 using zero-shot and few-shot prompting strategies with automated quality grading.",
     image: "/projects/project3.png",
-    tags: ["Python", "OpenAI", "Anthropic", "Pytest"],
-    link: "https://github.com/Kushyanth04",
-    github: "https://github.com/Kushyanth04",
-  },
-  {
-    title: "Real Time Chat Application",
-    description:
-      "Full-stack chat application with real-time 1-to-1 messaging, JWT authentication, and bcrypt security. CI/CD pipeline deployed to Render with MongoDB Atlas.",
-    image: "/projects/project4.png",
-    tags: ["NestJS", "Socket.io", "MongoDB", "GitHub Actions"],
+    tags: ["Python", "OpenAI", "Anthropic", "Pytest", "Pandas"],
     link: "https://github.com/Kushyanth04",
     github: "https://github.com/Kushyanth04",
   },
