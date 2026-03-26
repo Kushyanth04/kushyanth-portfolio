@@ -74,35 +74,36 @@ export const Hero = () => {
         ))}
       </div>
 
-      {/* Content */}
-      <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Column - Text Content */}
-          <div className="space-y-8">
-            <div className="animate-fade-in">
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
-                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • Backend & Full Stack
-              </span>
-            </div>
-
-            {/* Headline */}
-            <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">scalable</span>
-                <br />
-                systems with
-                <br />
-                <span className="font-serif italic font-normal text-white">
-                  precision.
-                </span>
-              </h1>
-              <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Kushyanth. A software engineer specializing in
-                Python, Node.js, and complex backend systems. I build reliable, performant,
-                and secure software architectures.
-              </p>
-            </div>
+<div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
+  <div className="grid lg:grid-cols-2 gap-12 items-center">
+    {/* Left Column - Text Content */}
+    <div className="space-y-8">
+      <div className="animate-fade-in">
+        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
+          <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+          Software Engineer • Backend & GenAI • Python & TypeScript
+        </span>
+      </div>
+      {/* Headline */}
+      <div className="space-y-4">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+          Building <span className="text-primary glow-text">intelligent</span>
+          <br />
+          systems that
+          <br />
+          <span className="font-serif italic font-normal text-white">
+            ship fast.
+          </span>
+        </h1>
+        <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+          Hi, I'm Kushyanth. A software engineer building 
+          backend systems and generative AI applications 
+          using Python, TypeScript, and tools like LangChain, 
+          RAG, and LLM APIs. From production telemetry 
+          serving 4,800+ vehicles to AI powered document 
+          intelligence.
+        </p>
+      </div>
 
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <a href="#contact">
